@@ -42,67 +42,49 @@
             </li>
 
             <li class="sidebar-header">
-                Tools & Components
+                Sales & Expenses
             </li>
 
             <li class="sidebar-item">
-                <a class="sidebar-link" href="ui-buttons.html">
-                    <i class="align-middle" data-feather="square"></i> <span class="align-middle">Buttons</span>
+                <a class="sidebar-link" href="{{route('admin.create')}}">
+                    <i class="align-middle" data-feather="square"></i> <span class="align-middle">Add new sale</span>
                 </a>
             </li>
 
             <li class="sidebar-item">
-                <a class="sidebar-link" href="ui-forms.html">
+                <a class="sidebar-link" href="{{route('admin.viewsale')}}">
                     <i class="align-middle" data-feather="check-square"></i> <span
-                        class="align-middle">Forms</span>
+                        class="align-middle">View All Sales</span>
                 </a>
             </li>
 
-            <li class="sidebar-item">
-                <a class="sidebar-link" href="ui-cards.html">
-                    <i class="align-middle" data-feather="grid"></i> <span class="align-middle">Cards</span>
-                </a>
-            </li>
-
-            <li class="sidebar-item">
-                <a class="sidebar-link" href="ui-typography.html">
-                    <i class="align-middle" data-feather="align-left"></i> <span
-                        class="align-middle">Typography</span>
-                </a>
-            </li>
-
-            <li class="sidebar-item">
-                <a class="sidebar-link" href="icons-feather.html">
-                    <i class="align-middle" data-feather="coffee"></i> <span class="align-middle">Icons</span>
-                </a>
-            </li>
 
             <li class="sidebar-header">
-                Plugins & Addons
+                Expenses /
             </li>
 
             <li class="sidebar-item">
-                <a class="sidebar-link" href="charts-chartjs.html">
+                <a class="sidebar-link" href="{{route('admin.expenses.create')}}">
                     <i class="align-middle" data-feather="bar-chart-2"></i> <span
-                        class="align-middle">Charts</span>
+                        class="align-middle">Add new expenses</span>
                 </a>
             </li>
 
             <li class="sidebar-item">
-                <a class="sidebar-link" href="maps-google.html">
-                    <i class="align-middle" data-feather="map"></i> <span class="align-middle">Maps</span>
+                <a class="sidebar-link" href="{{route('admin.view.expenses')}}">
+                    <i class="align-middle" data-feather="map"></i> <span class="align-middle">View Expenses</span>
                 </a>
             </li>
         </ul>
 
         <div class="sidebar-cta">
             <div class="sidebar-cta-content">
-                <strong class="d-inline-block mb-2">Upgrade to Pro</strong>
+                <strong class="d-inline-block mb-2">Yesterday Sales</strong>
                 <div class="mb-3 text-sm">
                     Are you looking for more components? Check out our premium version.
                 </div>
                 <div class="d-grid">
-                    <a href="upgrade-to-pro.html" class="btn btn-primary">Upgrade to Pro</a>
+                    <a href="upgrade-to-pro.html" class="btn btn-primary">View Details</a>
                 </div>
             </div>
         </div>

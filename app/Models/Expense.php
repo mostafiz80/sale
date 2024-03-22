@@ -9,6 +9,9 @@ class Expense extends Model
 {
     use HasFactory;
     public function sales(){
-        return $this->hasMany(Sale::class)
+        return $this->belongsTo(Sale::class);
+    }
+    public function user(){
+        return $this->belongsTo(User::class);
     }
 }

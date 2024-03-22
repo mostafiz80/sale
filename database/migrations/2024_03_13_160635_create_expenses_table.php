@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('expenses', function (Blueprint $table) {
             $table->id();
-            $table->string('user_id');
+            $table->foreignId('user_id')->on('users')->constrained();
             $table->string('name');
             $table->string('expenses_desc');
             $table->string('expenses_amount');
